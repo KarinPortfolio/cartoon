@@ -16,10 +16,14 @@ export const SegundaSection = styled.section `
     align-items: center;
 `
 export const TerceiraSection = styled.section`
-    height: 20vh;
     background-color: #211921;
     color: white;
+    height: 20vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 2rem;
+`
+export const img = styled.img`
+    width: 70px;
 `
