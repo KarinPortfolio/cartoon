@@ -11,7 +11,7 @@ import TomJerry from "./images/tomjerry.png"
 import Warner from "./images/warner.png"
 import GitHub from "./images/github.png"
 import Linkedin from "./images/linkedin.png"
-
+import Programacao from "../Programacao/Programacao.jsx"
 import * as S from "./estilo.jsx"
 
 
@@ -35,15 +35,17 @@ function Main(){
                     {galeria.map((item)=>(
                         <img src={item} alt="" />
                     ))}
-                </S.SegundaSection>     
+                </S.SegundaSection> 
+
+                 <Programacao />
+
                 <S.TerceiraSection>
                 <img src={Warner} alt="" />
                 <h2>sobre nós</h2>
                 <h2>produtos</h2>
                 <h2>personagens</h2>
                 <S.img src={GitHub} alt="" />
-                <S.img src={Linkedin} alt="" />             
-                
+                <S.img src={Linkedin} alt="" />   
                 </S.TerceiraSection>                  
             </main>
         )
